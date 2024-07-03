@@ -9,6 +9,7 @@ origen="./certificados"
 destino="./firmado"
 firma="./firma"
 
+# Limpiando el nombre del certificado. Quitando guiones y blancos.
 rename 's/\-//g' $origen/*.pdf
 rename 's/\_//g' $origen/*.pdf
 rename 's/\ //g' $origen/*.pdf
