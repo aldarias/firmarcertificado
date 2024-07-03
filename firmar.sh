@@ -1,6 +1,7 @@
 # Scripts: firma.sh
 # Por Paco Aldarias
 # Fecha: 2.7.2024
+echo "Ejecutarcon: bash ./firmar.sh"
 
 echo Script para firmar pdfs de $origen en $destino
 echo Crear un pdf con la firma transparente en pdf
