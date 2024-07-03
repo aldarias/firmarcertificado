@@ -2,7 +2,7 @@
 # Por Paco Aldarias
 # Fecha: 2.7.2024
 
-pdftk -v 2> echo "Necesita instalar pdftk" || sudo apt install pdftk
+pdftk -v 2> echo "Necesita instalar pdftk" && sudo apt install pdftk
 echo "Ejecutarcon: bash ./firmar.sh"
 
 echo Script para firmar pdfs de $origen en $destino
